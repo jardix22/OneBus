@@ -1,0 +1,23 @@
+{
+	"success": true,
+	"children_elements": [
+		// Elemento Asiento Cama
+		{
+			"id": "bed_seat",
+			"name": "Asiento cama <imagen>",
+			"father_id": "seat",
+		},
+		// Elemento Asiento Cama
+		{
+			"id": "normal_seat",
+			"name": "Asiento normal <imagen>",
+			"father_id": "seat",
+		},
+		// Elemento Piso
+		{
+			"id": "red_floor",
+			"name": "Piso Rojo <imagen>",
+			"father_id": "floor",
+		}
+	]
+}

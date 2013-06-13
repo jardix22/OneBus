@@ -1,0 +1,20 @@
+{
+	"success": true,
+	"buses": [
+		{
+			"id": 1, 
+			"description": "TBus #0001",
+			"is_template": true
+		},
+		{
+			"id": 2, 
+			"description": "TBus #0002",
+			"is_template": true
+		},
+		{
+			"id": 3, 
+			"description": "TBus #0003",
+			"is_template": true
+		}
+	]
+}

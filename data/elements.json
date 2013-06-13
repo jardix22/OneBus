@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "elements": [
+        {
+        	"id": "seat", 
+        	"name": "Asientos",
+            "father_id": null
+
+        },
+        {
+        	"id": "televition", 
+            "name": "Televisores",
+            "father_id": null
+        },
+        {
+            "id": "floor", 
+        	"name": "Pisos",
+            "father_id": null
+        }
+    ]
+}

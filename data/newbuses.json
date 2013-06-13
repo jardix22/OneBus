@@ -1,0 +1,20 @@
+{
+	"success": true,
+	"buses": [
+		{
+			"id": 1, 
+			"description": "Bus Especial",
+			"is_template": true
+		},
+		{
+			"id": 2, 
+			"description": "Bus Panoramico",
+			"is_template": true
+		},
+		{
+			"id": 3, 
+			"description": "Bus Doble Piso",
+			"is_template": true
+		}
+	]
+}

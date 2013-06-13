@@ -1,0 +1,80 @@
+{
+	"success": true,
+	"empty_buses": [
+		{
+			"id": 1, 
+			"description": "TBus #0011",
+			"is_template": true,
+			
+			"maxrows": 20,
+			"maxcolumn": 5,
+
+			"minrows": 2,
+			"mincolumns": 2,
+			
+			"custom_elements": [
+				{
+					"index_x": 1,
+					"index_y": 1,
+
+					"element_id":"empty",
+					"values": [
+						{
+							"attribute_id": "is-dragable",
+							"value": true
+						}
+					]
+				},
+				{
+					"index_x": 1,
+					"index_y": 2,
+
+					"element_id": "empty",
+					"values": [
+						{
+							"attribute": "is-dragable",
+							"value": true
+						}
+					]
+				},
+
+				{
+					"index_x": 1,
+					"index_y": 3,
+
+					"element_id": "empty",
+					"values": [
+						{
+							"attribute": "is-dragable",
+							"value": true
+						}
+					]
+				},
+				{
+					"index_x": 1,
+					"index_y": 4,
+
+					"element_id": "empty",
+					"values": [
+						{
+							"attribute": "is-dragable",
+							"value": true
+						}
+					]
+				},
+				{
+					"index_x": 1,
+					"index_y": 5,
+
+					"element_id": "empty",
+					"values": [
+						{
+							"attribute": "is-dragable",
+							"value": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
