@@ -1,4 +1,4 @@
- 	Ext.define('OneBus.controller.One', {
+	Ext.define('OneBus.controller.One', {
 	extend: 'Ext.app.Controller',
 	
 	requires: [
@@ -10,7 +10,8 @@
 		'one.EditWindow',
 		'one.WorkArea',
 		'one.ToolsBar',
-		'one.EditionBar'
+		'one.EditionBar',
+		'one.DropElements'
 	],
 
 	refs: [
@@ -58,11 +59,8 @@
 				callback: function (argument) {
 					cells = Ext.query('#work-place .cell');
 					Ext.each(cells, function (cell) {
-						var DD = Ext.create('Ext.dd.DDTarget', cell, 'ElementsDDGroup');
-
-						// console.log(DD);
+						var DD = Ext.create('OneBus.view.one.DropElements', cell);
 					});
-					// console.log(cells);
 				}
 			}
 		);
