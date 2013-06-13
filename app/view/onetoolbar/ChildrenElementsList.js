@@ -1,5 +1,5 @@
 Ext.define('OneBus.view.onetoolbar.ChildrenElementsList', {
-	extend: 'Ext.view.View',
+	extend: 'Ext.DataView',
 	alias: 'widget.childrenelementslist',
 	
 	store: 'ChildrenElements',
@@ -25,5 +25,5 @@ Ext.define('OneBus.view.onetoolbar.ChildrenElementsList', {
     itemSelector : 'div.children-element',
 
 	itemTpl: '<div class="children-element">{name}</div>',
-	emptyText: 'No hay Elementos',
+	emptyText: 'No hay Elementos'
 });	

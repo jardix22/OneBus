@@ -6,7 +6,7 @@ Ext.define('OneBus.view.one.WorkArea', {
 	height: 200,
 
 	loader: {
-		url: 'core/Buses/bus',
+		url: 'plain/bus.html',
 		contentType: 'html',
         loadMask: true,
 	},
